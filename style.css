@@ -8,6 +8,7 @@
     --vermelho: #ff0000;
     --laranja-degrade: linear-gradient(97.54deg, #FC6621 35.49%, #FF9F05 165.37%);
     --fonte-principal: "Poppins";
+    --azul: #002f52;
 } 
 
 body {
@@ -17,6 +18,10 @@ body {
     font-weight: 400;
 
 }
-
+.card_descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
 
 
